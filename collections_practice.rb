@@ -21,8 +21,11 @@ def first_wa(words)
  end
 end
 
-def remove_non_strings(mix)
-  mix.delete_if do |n|
-  n.instance_of? = "String"
+def remove_non_strings(mix) 
+  allStr = []
+ mix.select do |num|
+  if num.instance_of? String
+    allStr << num
+   end
 end
 end
