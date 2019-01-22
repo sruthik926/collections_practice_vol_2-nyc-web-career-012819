@@ -32,8 +32,7 @@ end
 end
 
 def count_elements(arr)
-arr.each_with_object({}) { |g,h| h.update(g[:name]=>1) { |_,o,n| o+n } }.
-    map { |name, count| { :name=>name, :count=>count } }
+
 end
 
 def merge_data(h1, h2)
