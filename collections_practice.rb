@@ -31,7 +31,25 @@ def remove_non_strings(mix)
 end
 end
 
-def count_elements
-  
+def count_elements(arr)
+
   
 end
+
+def merge_data(h1, h2)
+end
+
+
+def find_cool(arr1)
+  arr1.each do |e|
+    e.each do |f, g|
+      if g == "cool" 
+        return [e]
+      end 
+    end
+  end
+end
+
+
+
+
