@@ -1,13 +1,14 @@
+require'pry'
+
 # your code goes here
 def begins_with_r(tools)
   tools.each do |x|
-  if x[0] == "r"
-  return true
- else 
-  return false
+    if x[0] != 'r'
+        return false
+      end
+  end
+      return true
 end
- end
-end 
  
 def contain_a(array)
   array.select do |x|
@@ -28,4 +29,9 @@ def remove_non_strings(mix)
     allStr << num
    end
 end
+end
+
+def count_elements
+  
+  
 end
