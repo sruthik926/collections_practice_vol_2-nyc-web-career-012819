@@ -51,5 +51,9 @@ def find_cool(arr1)
 end
 
 
+def organize_schools(obj1)
+end
+
+
 
 
